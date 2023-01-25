@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/css/contactUs.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <title>Contact Us</title>
+</head>
+<body>
+<!-- ======= Header ======= -->
+<header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center justify-content-lg-between">
+      <!-- <a href="index.html"> <img src="./images/codestorieslogo.png" class="img-fluid animated" alt="">  -->
+      <!-- <h1 class="logo me-auto me-lg-0"><a href="index.html">Code<span style="color: gold;">Stories</span></a></h1> -->
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <a href="index.html" class="me-auto me-lg-0"><img src="./images/codestorieslogo.png" alt="" class="img-fluid" style="margin: 0%; padding: 0px; height: 100px;"></a>
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul> 
+          <!-- <li><a class="nav-link scrollto active" href="./index.html">Home</a></li> -->
+          <li><a class="nav-link scrollto " href="./index.html">Home</a></li>
+          <!-- <li><a class="nav-link scrollto" href="#">About</a></li> -->
+          <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="./webbapp.html">Web Applications</a></li>
+              <li><a href="./website.html">Website Development</a></li>
+              <li><a href="./mobileApplication.html">Mobile Applications</a></li>
+              <!-- <li><a href="#">Branding</a></li>
+              <li><a href="./monte.html">Education</a></li>
+              <li><a href="#">Desktop Applications</a></li> -->
+              <li><a href="./ecommerce.html">Ecommerce Websites</a></li>
+              
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="http://contactus.codestories.tech/">Contact Us</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+      <!-- <a href="#about" class="get-started-btn scrollto">Get Started</a> -->
+
+    </div>
+  </header>
+
+    <section>
+        <div class="container">
+          <form action="https://formspree.io/f/mwkjpgaz" method="POST" id="my-form">
+      
+            <div class="form-group">
+              <label for="firstName"> First Name</label>
+              <input type="text" id="firstName" name="firstName">
+            </div>
+      
+            <div class="form-group">
+              <label for="latsName">Last Name</label>
+              <input type="text" id="lastName" name="lastName">
+            </div>
+      
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email">
+            </div>
+      
+            <div class="form-group">
+              <label for="massage">Massage</label>
+              <textarea name="massage" id="massage" cols="30" rows="10"></textarea>
+            </div>
+      
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+        <div id="status"></div>
+      </section>
+
+      <script src="assets/js/contactUs.js"></script>
+</body>
+</html>
