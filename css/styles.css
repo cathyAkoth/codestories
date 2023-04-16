@@ -111,7 +111,8 @@ body {
   
   #header.header-scrolled {
     top: 0;
-    background: rgba(26, 24, 22, 0.85);
+    /* background: rgba(26, 24, 22, 0.85); */
+    background: #540375;
   }
   
   #header .logo h1 {
